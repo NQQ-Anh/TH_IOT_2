@@ -30,7 +30,7 @@ pip install paho-mqtt pandas numpy pymongo[srv] certifi matplotlib python-dotenv
 1. Đăng nhập MongoDB Atlas, tạo database tên là `IOT_LAB_2`.
 2. Lấy chuỗi kết nối (Connection String) của bạn.
 3. Mở các file `data_collector.py`, `preprocess.py` và `app_matplotlib.py`.
-4. Tìm biến `ATLAS_URI` và thay thế bằng chuỗi kết nối của bạn.
+4. Tạo file .env và gán biến `ATLAS_URI` bằng chuỗi kết nối của bạn.
    *Ví dụ: `ATLAS_URI = "mongodb+srv://<username>:<password>@cluster0...`*
 
 ### Bước 3: Chạy thiết bị gửi dữ liệu (ESP32)
